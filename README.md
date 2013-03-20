@@ -27,7 +27,7 @@ join = " " (default)
 
 Makes sorting arrays easier.
 
-Mode: 0 = Alphabetic, 1 = Reverse Alphabetic, 2 = Numberic, 3 = Reverse Numeric
+Mode: 0 = Alphabetic, 1 = Reverse Alphabetic, 2 = Numeric, 3 = Reverse Numeric
 
 
 .arrayTotal(in_array)
