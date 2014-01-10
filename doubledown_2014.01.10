@@ -104,17 +104,20 @@ $$ = {
   	}
   	return give_me;
   },
-// $$.arrayCheck(obj,in_array)
+  
+  
+// $$.arrayCheck(in_array,obj)
 // Returns true of value is in the array, or false if it isn't
-  arrayCheck : function(obj,in_array) {
-		var i = in_array.length;
-		while (i--) {
-			if (in_array[i] == obj) {
-				return true;
-			}
+  arrayCheck : function(in_array,obj) {
+	var i = in_array.length;
+	while (i--) {
+		if (in_array[i] == obj) {
+			return true;
 		}
-		return false;
-	},
+	}
+	return false;
+   },
+	
 // $$.arrayTotal(in_array,return variable)
 // Adds numeric values of a mixed array
 // in_array = array to use
