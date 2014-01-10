@@ -13,6 +13,11 @@ Will log to the console in Firefox and Chrome, while displaying an alert in Inte
 API
 =
 
+.arrayCheck(in_array,obj)
+-
+
+Checks in_array for presence of obj, returns true or false accordingly.
+
 
 .arrayConcat(in_array,join)
 -
