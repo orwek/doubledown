@@ -187,7 +187,10 @@ $$ = {
       for (i in trans_in){
         document.getElementById(i).innerHTML = trans_in[i];
       }
-  }
+  },
+   },
+// Add a timestamp to beat the cache
+  timestamp : new Date().getTime()
 };
 
 
