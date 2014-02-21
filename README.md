@@ -85,3 +85,7 @@ Swap the inner html of any given id using a JSON string.
 
 $$.translate({"key" : "value", "myId" : "Translation goes here", "myId2" : "Another translation goes here"})
 
+.timestamp
+-
+
+returns the current time in milisecionds, add to the end of a url to beat the cache

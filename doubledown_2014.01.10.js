@@ -29,6 +29,7 @@ $$ = {
 // $$.error(code,message) to handle IE(8) console.log issues
 // "code" can be a line number or some other numeric tracking system
 // tested 12/19/2012 on Chrome 23 and IE 9
+// IE 10 has fixed the console.log issue, so this will be useless when IE10 is the trailing edge browser
   error : function(code,message){
   	if (typeof console === "undefined" || typeof console.log === "undefined") {
        	alert(code + ":" + message);
